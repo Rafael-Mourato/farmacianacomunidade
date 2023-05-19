@@ -9,33 +9,33 @@
 
 nav {
     background-color: transparent;
-    padding: 1% 1%;
+    padding: 1px 1px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav .logo img {
-    width: 110%;
-    height: 110%;
+    width: 110px;
+    height: 110px;
 }
 
 nav ul {
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 10%;
+    padding: 10px;
 }
 nav li {
-    margin-left: 7%;
+    margin-left: 7px;
 }
 nav li a {
     text-decoration: none;
     color: #000;
-    font-size: 18%;
+    font-size: 18px;
     font-weight: 500;
-    padding: 8% 15%;
-    border-radius: 5%;
+    padding: 8px 15px;
+    border-radius: 5px;
     transition: 0.3s;
 }
 nav li a:hover {
@@ -50,19 +50,19 @@ nav li a:hover {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10%;
+    width: 10px;
 }
   
   /* Track */
 ::-webkit-scrollbar-track {
     background: #f1f1f1; 
-    border-radius: 5%;
+    border-radius: 5px;
 }
    
   /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #3b6d09;
-    border-radius: 5%; 
+    border-radius: 5px; 
 }
   
   /* Handle on hover */
@@ -73,7 +73,7 @@ nav li a:hover {
 /**/
 
 .video h2 {
-    font-size: 30%;
+    font-size: 30px;
     text-align: center;
     color: #3da404;
 }
@@ -84,9 +84,9 @@ nav li a:hover {
 }
 
 .video video {
-    width: 900%;
+    width: 900px;
     height: auto;
-    margin-left: 500%;
+    margin-left: 500px;
 }
 
 /* Página: Contacto */
@@ -101,49 +101,49 @@ nav li a:hover {
     flex: 1; /* Ocupa 1/2 do espaço disponível */
     align-items: center;
     position: relative;
-    margin-left: 150%;
-    filter: drop-shadow(0 0 10% #3b6d09);
+    margin-left: 150px;
+    filter: drop-shadow(0 0 10px #3b6d09);
 }
   
 #page3 .text {
-    flex: 1 1 100%; /* Ocupa 1/2 do espaço disponível */
-    padding: 0 20%; /* Adapte as margens laterais conforme necessário */
+    flex: 1 1 100px; /* Ocupa 1/2 do espaço disponível */
+    padding: 0 20px; /* Adapte as margens laterais conforme necessário */
     text-align: justify;
 }
 
 #page3 .text h2{
-    font-size: 30%;
+    font-size: 30px;
 }
 
 #page3 .contacts {
     display: inline-flex;
     justify-content: space-between;
-    box-shadow: 5% 5% red;
-    padding: 8% 15%;
-    margin-top: 370%;
-    margin-right: 150%;
-    margin-bottom: 0%;
-    margin-left: 0%;
+    box-shadow: 5px 5px red;
+    padding: 8px 15px;
+    margin-top: 370px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 #page3 .contacts ul {
     position: absolute;
     align-items: center;
     list-style: none; 
-    padding: 8%;
+    padding: 8px;
 }
 
 #page3 .contacts li {
-    margin-left: 7%;
+    margin-left: 7px;
 }
 
 #page3 .contacts li a {
     text-decoration: none;
     color: #000;
-    font-size: 18%;
+    font-size: 18px;
     font-weight: 500;
-    padding: 8% 15%;
-    border-radius: 5%;
+    padding: 8px 15px;
+    border-radius: 5px;
     transition: 0.3s;
 }
 
@@ -166,18 +166,18 @@ nav li a:hover {
     position: relative;
     order: 2;
     text-align: justify;
-    margin-left: 400%;
+    margin-left: 400px;
 }
   
 #page2 .text {
-    flex: 1 1 100%; /* Ocupa 1/2 do espaço disponível */
-    padding: 0 1%; /* Adapte as margens laterais conforme necessário */
+    flex: 1 1 100px; /* Ocupa 1/2 do espaço disponível */
+    padding: 0 1px; /* Adapte as margens laterais conforme necessário */
     order: 1;
     text-align: right;
 }
   
 #page2 .text h2 {
-    font-size: 30%;
+    font-size: 30px;
 }
 
 /* Página: Início */
@@ -188,42 +188,42 @@ nav li a:hover {
 }
   
 #page1 .text2 {
-    flex: 1 1 100%; /* Ocupa 1/2 do espaço disponível */
-    padding: 0 20%; /* Adapte as margens laterais conforme necessário */
+    flex: 1 1 100px; /* Ocupa 1/2 do espaço disponível */
+    padding: 0 20px; /* Adapte as margens laterais conforme necessário */
     order: 1;
     text-align: justify;
-    margin-left: 150%;
+    margin-left: 150px;
 }
 
 #page1 .text2 h2{
-    font-size: 30%;
+    font-size: 30px;
 }
   
 #page1 .text {
-    flex: 1 1 100%; /* Ocupa 1/2 do espaço disponível */
-    padding: 0 20%; /* Adapte as margens laterais conforme necessário */
+    flex: 1 1 100px; /* Ocupa 1/2 do espaço disponível */
+    padding: 0 20px; /* Adapte as margens laterais conforme necessário */
     text-align: justify;
     order: 2;
 }
 
 #page1 .text h2{
-    font-size: 30%;
+    font-size: 30px;
 }
 
 /* Linha Separa Páginas */
 .page-separator {
     border: none;
-    height: 2%;
+    height: 2px;
     background-color: #3b6d09;
     opacity: 0.75;
-    margin: 5% 0; /* Ajuste as margens conforme necessário */
+    margin: 5px 0; /* Ajuste as margens conforme necessário */
 }
 
 /* Footer */
 
 footer {
     background-color: #3b6d09;
-    padding: 20%;
+    padding: 20px;
     text-align: center;
     margin-top: auto;
 }
