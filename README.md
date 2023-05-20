@@ -7,5 +7,5 @@ A Farmácia na Comunidade é um projeto desenvolvido no âmbito da Prova de Apti
 Através disto foi elavorado um website para facilitar a obtenção da informação.
 
 EN
-Farmácia na Comunidade is a project developed within the scope of the Professional Aptitude Test, with a view to completing the Auxiliary Technical Pharmacy Course, taught at the Agostinho Roseta Professional School, in Crato.
+Farmácia na Comunidade is a project developed within the scope of the Prova de Aptidão Profissional, with a view to completing the Auxiliary Technical Pharmacy Course, taught at the Agostinho Roseta Professional School, in Crato.
 Through this, a website was created to facilitate obtaining information.
