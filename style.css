@@ -21,9 +21,43 @@
     #page3 .text {
         flex-basis: 100%;
     }
+
+    #page2 .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #page2 .image {
+        margin-bottom: 20px;
+    }
+
+    #page2 .text {
+        flex-basis: 100%;
+    }
+
+    .slider {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+      }
+      
+      .slides {
+        height: auto;
+      }
+      
+      .slide {
+        width: 100%;
+      }
+      
+      .navigation-auto,
+      .manual-navigation {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+      }
 }
-
-
+    
 nav {
     background-color: transparent;
     padding: 1px 1px;
@@ -282,26 +316,27 @@ nav li a:hover {
 
 .video {
     padding: 0 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
-
+  
 .video h2 {
     font-size: 30px;
-    text-align: center;
     color: #3da404;
 }
-
+  
 .video p {
-    text-align: center;
     color: #3b6d09;
 }
-
+  
 .video video {
-    display: flex;
-    width: 500px;
+    max-width: 100%;
     height: auto;
     margin: auto;
     padding-bottom: 1%;
     padding-top: 1%;
+    max-height: 400px;
 }
 
 /* Página: Contacto */
