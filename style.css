@@ -7,6 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 768px){ 
+    nav li {
+        margin-left: 7px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
 nav {
     background-color: transparent;
     padding: 1px 1px;
@@ -72,6 +83,10 @@ nav li a:hover {
 
 /**/
 
+.video {
+    padding: 0 20px;
+}
+
 .video h2 {
     font-size: 30px;
     text-align: center;
@@ -84,9 +99,12 @@ nav li a:hover {
 }
 
 .video video {
-    width: 900px;
+    display: flex;
+    width: 500px;
     height: auto;
-    margin-left: 500px;
+    margin: auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 /* Página: Contacto */
@@ -94,7 +112,7 @@ nav li a:hover {
 #page3 .container {
     display: flex;
     align-items: center; /* Alinha verticalmente o conteúdo */
-    
+    padding-top: 1%;
 }
   
 #page3 .image {
@@ -131,6 +149,7 @@ nav li a:hover {
     align-items: center;
     list-style: none; 
     padding: 8px;
+    display: inline;
 }
 
 #page3 .contacts li {
@@ -166,7 +185,6 @@ nav li a:hover {
     position: relative;
     order: 2;
     text-align: justify;
-    margin-left: 400px;
 }
   
 #page2 .text {
@@ -185,29 +203,34 @@ nav li a:hover {
 #page1 .container {
     display: flex;
     align-items: center; /* Alinha verticalmente o conteúdo */
-}
-  
-#page1 .text2 {
-    flex: 1 1 100px; /* Ocupa 1/2 do espaço disponível */
-    padding: 0 20px; /* Adapte as margens laterais conforme necessário */
-    order: 1;
-    text-align: justify;
-    margin-left: 150px;
-}
-
-#page1 .text2 h2{
-    font-size: 30px;
+    padding: 0 20px;
 }
   
 #page1 .text {
-    flex: 1 1 100px; /* Ocupa 1/2 do espaço disponível */
-    padding: 0 20px; /* Adapte as margens laterais conforme necessário */
     text-align: justify;
-    order: 2;
 }
 
 #page1 .text h2{
     font-size: 30px;
+    text-align: center;
+}
+
+#page1 .text ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+
+}
+#page1 .text li {
+    margin: 10px;
+    text-align: center;
+    background-color: #3da404;
+    border-radius: 10px;
+    padding: 10px;
+
 }
 
 /* Linha Separa Páginas */
@@ -217,6 +240,23 @@ nav li a:hover {
     background-color: #3b6d09;
     opacity: 0.75;
     margin: 5px 0; /* Ajuste as margens conforme necessário */
+}
+
+/* Página: Default */
+
+#page .container {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#page .text {
+    text-align: justify;
+}
+
+#page .text h2 {
+    font-size: 30px;
+    text-align: center;
 }
 
 /* Footer */
